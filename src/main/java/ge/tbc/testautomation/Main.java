@@ -3,10 +3,10 @@ package ge.tbc.testautomation;
 public class Main {
     public static void main(String[] args) {
         System.out.println("I AM THE MAIN FUNCTION");
-        String result = someNewFunction("MESSAGE");
+        someNewFunction();
     }
 
-    private static String someNewFunction(String message){
-        return message;
+    private static void someNewFunction(){
+        System.out.println("I DO SOMETHING NEW");
     }
 }
