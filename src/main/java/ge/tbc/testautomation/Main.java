@@ -3,7 +3,8 @@ package ge.tbc.testautomation;
 public class Main {
     public static void main(String[] args) {
         System.out.println("I AM THE MAIN FUNCTION");
-        boolean booleanValue = someBooleanFunction();
+        someNewFunction();
+        someBooleanFunction();
     }
 
     private static void someNewFunction(){
