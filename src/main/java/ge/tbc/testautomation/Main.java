@@ -8,7 +8,7 @@ public class Main {
     }
 
     private static void someNewFunction(){
-        System.out.println("I DO SOMETHING NEW");
+        System.out.println("I DO SOMETHING OLD");
     }
 
     private static boolean someBooleanFunction(){
